@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>border</title>
+		<link rel="stylesheet" type="text/css" href="new_file.css" />
+
+	</head>
+	<body>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+		<script>
+			function f(n) {
+				if (n == 1 || n == 2) {
+					return 1
+				}
+				return f(n - 1) + f(n - 2)
+			}
+			var rg = /123/;
+			console.log(rg.test(f(5)))
+		</script>
+	</body>
+</html>

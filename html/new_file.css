@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.big {
+	/* padding-top: 100px; */
+	line-height: 300px;
+}
+
+.big a {
+	float: left;
+	padding: 20px;
+	background-color: azure;
+	vertical-align: bottom;
+}
+span{
+	float: left;
+}
